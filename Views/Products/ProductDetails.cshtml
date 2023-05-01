@@ -1,0 +1,170 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using GameCommerce.Data
+@using Microsoft.EntityFrameworkCore;
+@model Product
+@inject UserManager<Customer> user
+@inject ApplicationDbContext _db;  
+@{ var quantity = 1;
+    string userId = user.GetUserId(User);
+    var banner = Model.Photos.FirstOrDefault(x => x.main);
+    var games = _db.Products.Include(x => x.Photos).ToList();
+}
+
+
+
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="../../assets/bower_components/magnific-popup/dist/magnific-popup.css" />
+
+<!-- Revolution Slider -->
+<link rel="stylesheet" type="text/css" href="../../assets/plugins/slider-revolution/examples%26source/rs-plugin/css/settings.css" />
+
+<!-- Social Likes -->
+<link rel="stylesheet" type="text/css" href="../../assets/bower_components/social-likes/dist/social-likes_flat.css" />
+
+
+<!-- Main Content -->
+<section class="content-wrap" style="max-width:80vw">
+
+    <div class="tp-banner-container rs-youplay">
+        <div class="tp-banner">
+            <ul>
+               
+                
+                <!-- SLIDE NR. 1  -->
+                <li data-thumb="@banner.Path" data-saveperformance="on" data-transition="random-static" data-slotamount="7" data-masterspeed="700">
+                    <!-- MAIN IMAGE -->
+                    <img src="@banner.Path" alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                   
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption customin customout" data-x="left" data-hoffset="60" data-y="center" data-voffset="-45" data-customin="x:0;" data-customout="x:0;" data-start="0" data-speed="500" data-endspeed="500">
+                        <h2 class="h1">@Model.Name</h2>
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <form id="addtocart" asp-action="AddToCart" asp-route-id="@Model.Id" asp-route-userid="@userId">
+                        <input type="number" hidden asp-for="@quantity" />
+                        <div class="tp-caption customin customout" data-x="left" data-hoffset="60" data-y="center" data-voffset="45" data-customin="x:0;" data-customout="x:0;" data-start="0" data-speed="500" data-endspeed="500">
+                            <a class="btn btn-lg" role="button" onclick="document.getElementById('addtocart').submit()"> Add To Cart <br /> @Model.Price€ </a>
+                        </div>
+                    </form>
+                </li>
+                     }
+            </ul>
+            <div class="tp-bannertimer"></div>
+        </div>
+    </div>
+    <!-- /Slider Revolution-->
+
+
+    <div class="container-fluid mt-5 pt-5 youplay-store">
+        
+        <div class="col-md-12">
+            <!-- Post Info -->
+            <article>
+
+                <!-- Description -->
+                <h2 class="mt-3">Description</h2>
+                <div class="description">
+                    <p>
+                        @Model.Description
+                    </p>
+
+                </div>
+                <!-- /Description -->
+                <!-- Images With Text -->
+                <div class="youplay-carousel gallery-popup">
+                    @foreach (var image in Model.Photos)
+                    {
+                        <a class="angled-img" href="@image.Path">
+                            <div class="img">
+                                <img src="@image.Path" alt="">
+                            </div>
+                            <i class="fa fa-search-plus icon"></i>
+                        </a>
+
+                    }
+                </div>
+                <!-- /Images With Text -->
+</div>
+
+    </div>
+
+    <!-- Related -->
+    <h2 class="container text-center">Related</h2>
+    <br>
+    <div class="youplay-carousel">
+    @foreach (var game in games)
+        {
+           var image = game.Photos.FirstOrDefault(x => x.main);
+
+        <a class="angled-img" href="/products/ProductDetails/@game.Id">
+            <div class="img">
+                <img src="@image.Path" alt="">
+            </div>
+            <div class="over-info">
+                <div>
+                    <div>
+                        <h4>@game.Name</h4>
+                       
+                    </div>
+                </div>
+            </div>
+        </a>
+        }
+
+    </div>
+    <!-- /Related -->
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+        <div class="wrapper" style="background-image: url('../../koala/images/footer-bg.jpg')">
+
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>Connect socially with <strong>AVRG</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-facebook-square"></i>
+                                <span>Like on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitter-square"></i>
+                                <span>Follow on Twitter</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitch"></i>
+                                <span>Watch on Twitch</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-youtube-square"></i>
+                                <span>Watch on Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <strong>With ❤️ by Guli</strong>
+                </div>
+            </div>
+            <!-- /Copyright -->
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+</section>
+<!-- /Main Content -->

@@ -1,0 +1,117 @@
+﻿@model Product
+@{
+
+    ViewData["Title"] = $"Edit Product {Model.Name}";
+}
+
+<div class="container-fluid" style="background-color:#080325; border-radius: 100px; margin-top:20vh; max-width:60%; padding-left:10em; padding-right:10em;">
+    <div class="py-5 p-4" >
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <form class="row g-3" method="post" enctype="multipart/form-data">
+            <div class="col-md-4">
+                <label class="form-label">Name</label>
+                <input asp-for="@Model.Name" type="text" class="form-control" id="Name">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Price</label>
+                <input asp-for="@Model.Price" type="number" class="form-control" id="price">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Category</label>
+                <select class="form-control" asp-for="@Model.Category">
+                    <option default value="">Select a Category</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="indie">Indie</option>
+                    <option value="racing">Racing</option>
+                    <option value="simulation">Simulation</option>
+                    <option value="strategy">Strategy</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Description</label>
+                <textarea asp-for="@Model.Description" class="form-control" id="description"></textarea>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Upload Image</label>
+                <input asp-for="@Model.ImageFile" type="file" class="form-control" multiple id="image">
+            </div>
+            <h3 class="text-center mt-10 mb-10">Images</h3>
+            <div class="d-flex flex-wrap justify-content-center" style="display:flex; flex-wrap:wrap; justify-content:center">
+                @foreach (var photo in Model.Photos.OrderByDescending(x => x.main))
+                {
+                    <div class="mr-5 ml-5 mt-10 mb-10">
+
+
+                        <div class="remove">
+
+                            <img height="150" width="200" src="@photo.Path" />
+                            <div class="overlay">
+                                <a class="item" href="@Url.Action("DeletePhoto", new {id = Model.Id , photoId = photo.Id})">
+                                    <div class="text">Remove</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            @if (photo.main)
+                            {
+                                <h5>Default Image</h5>
+                            }
+                            else
+                            {
+                                <a href="@Url.Action("SetDefault", new {id = Model.Id , photoId = photo.Id})">Set Default</a>
+                            }
+
+
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-md-2 col-sm-push-5 mt-20 mb-20">
+                <button type="submit" class="btn btn-primary btn-lg ">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <style>
+        .remove {
+            position: relative;
+            width: 100%;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgb(59, 113, 202);
+        }
+
+        .remove:hover .overlay {
+            opacity: 1;
+        }
+
+        .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>

@@ -1,0 +1,188 @@
+﻿@using GameCommerce.Data;
+@using Microsoft.EntityFrameworkCore;
+@model Store
+@inject ApplicationDbContext _db
+@{
+    var rndGen = new Random();
+    var pop = new List<Product>();
+    var lista = new List<int>();
+
+    while (pop.Count < 4)
+    {
+        int random = rndGen.Next(0, _db.Products.Count());
+        if (!lista.Contains(random))
+        {
+            lista.Add(random);
+            pop.Add(_db.Products.Include(x => x.Photos).ToList().ElementAt(random));
+        }
+    }
+
+}
+<section class="content-wrap" style="max-width:100vw; padding-top:0.5em">
+
+
+    <div class="container youplay-store store-grid">
+        <h1>Game Store</h1>
+        @if(@Model.Query != null && @Model.Query != "")
+        {
+           <h2 class="col-md-5 mt-0 col-md-push-2">Result for "@Model.Query"</h2>
+        }
+        <!-- Games List -->
+        <div class="col-md-9 isotope">
+            <!-- Sort Categories -->
+            <ul class="pagination isotope-options">
+                <li class="@(@Model.Category == null || @Model.Category == "" ? "active" : "")">
+                    <a href="?">All</a>
+                </li>
+                <li class="@(@Model.Category == "action"  ? "active" : "")">
+                    <a href="?category=action">Action</a>
+                </li>
+                <li class="@(@Model.Category == "adventure"  ? "active" : "")">
+                    <a href="?category=adventure">Adventure</a>
+                </li>
+                <li class="@(@Model.Category == "indie"  ? "active" : "")">
+                    <a href="?category=indie">Indie</a>
+                </li>
+                <li class="@(@Model.Category == "racing"  ? "active" : "")">
+                    <a href="?category=racing">Racing</a>
+                </li>
+                <li class="@(@Model.Category == "simulation"  ? "active" : "")">
+                    <a href="?category=simulation">Simulation</a>
+                </li>
+                <li class="@(@Model.Category == "strategy"  ? "active" : "")">
+                    <a href="?category=strategy">Strategy</a>
+                </li>
+            </ul>
+            <!-- /Sort Categories -->
+
+            <div class="isotope-list row vertical-gutter">
+
+                <!-- Single Product Block -->
+                @foreach (var game in Model.Products)
+                {
+                    var photo = game.Photos.FirstOrDefault(x => x.main);
+                    <div class="item col-lg-4 col-md-6 col-xs-12">
+                        <a href="/products/ProductDetails/@game.Id" class="angled-img">
+                            <div class="img img-offset">
+                                <img src="@photo.Path" alt="">
+                            </div>
+                            <div class="bottom-info">
+                                <h4>@game.Name</h4>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="price">
+                                            @game.Price€
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+                <!-- /Single Product Block -->
+
+            </div>
+
+        </div>
+        <!-- /Games List -->
+        <!-- Right Side -->
+        <div class="col-md-3">
+
+            <!-- Side Search -->
+            <div class="side-block">
+                <p>Search by Games:</p>
+                <form>
+                    <div class="youplay-input">
+                        <input asp-for="@Model.Query" type="text" name="query" placeholder="enter search term">
+                    </div>
+                </form>
+            </div>
+            <!-- /Side Search --> 
+            <!-- Side Popular News -->
+            <div class="side-block">
+                <h4 class="block-title">Popular Games</h4>
+                <div class="block-content p-0">
+
+                    @foreach (var game in pop)
+                     {
+                       var image = game.Photos.FirstOrDefault(x => x.main);
+
+                        <!-- Single News Block -->
+                        <div class="row youplay-side-news">
+                            <div class="col-xs-3 col-md-4">
+                                <a href="/products/ProductDetails/@game.Id" class="angled-img">
+                                    <div class="img">
+                                        <img src="@image.Path" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-9 col-md-8">
+                                <h4 class="ellipsis"><a href="/products/ProductDetails/@game.Id" title="@game.Name">@game.Name</a></h4>
+                                <span class="price">@game.Price€</span>
+                            </div>
+                        </div>
+                        <!-- /Single News Block -->
+                    }
+
+                </div>
+            </div>
+            <!-- /Side Popular News -->
+
+        </div>
+        <!-- /Right Side -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+        <div class="wrapper" style="background-image: url('../../koala/images/footer-bg.jpg') ">
+
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>Connect socially with <strong>AVRG</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-facebook-square"></i>
+                                <span>Like on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitter-square"></i>
+                                <span>Follow on Twitter</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitch"></i>
+                                <span>Watch on Twitch</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-youtube-square"></i>
+                                <span>Watch on Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <strong>With ❤️ by Guli</strong>
+                </div>
+            </div>
+            <!-- /Copyright -->
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+</section>
+
+

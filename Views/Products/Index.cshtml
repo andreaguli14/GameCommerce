@@ -1,0 +1,48 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "Products List";
+}
+
+<link rel="stylesheet" href="~/css/list.css" />
+
+<div class="py-5 p-4 bg-light shadow-sm" style="margin-top:20vh; max-width:50%; margin-right:auto; margin-left:auto">
+    <h3 class="title text-center">Products <span>List</span></h3>
+    <button onclick="location.href='@Url.Action("AddProduct")'" class="btn btn-success btn-rounded " style="margin-bottom:1em">Add Product</button>
+    <div class="table100 ver4 m-b-110 bg-light">
+        <div class="table100-head bg-light">
+            <table>
+                <thead>
+                    <tr class="row100 head">
+                        <th class="cell100 column1">#</th>
+                        <th class="cell100 column2">Name</th>
+                        <th class="cell100 column3">Price</th>
+                        <th class="cell100 column4"></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="table100-body bg-light js-pscroll ps ps--active-y">
+            <table>
+                <tbody>
+                    @foreach (var x in Model)
+                    {
+                        <tr class="row100 body">
+                            <td class="cell100 column1">@x.Id</td>
+                            <td class="cell100 column2">@x.Name</td>
+                            <td class="cell100 column3">@x.Price €</td>
+                            <td class="cell100 column4">
+                                <a asp-action="ProductDetails" asp-route-id="@x.Id"><i class="fa fa-info-circle" style="font-size:1.5em"></i></a>&nbsp;
+                                <a asp-action="EditProduct" asp-route-id="@x.Id" data-tip="edit"><i class="fa fa-edit" style="font-size:1.5em"></i></a>&nbsp;
+                                <a asp-action="DeleteProduct" asp-route-id="@x.Id" data-tip="delete"><i class="fa fa-trash" style="font-size:1.5em"></i></a>
+                            </td>
+                        </tr>
+
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

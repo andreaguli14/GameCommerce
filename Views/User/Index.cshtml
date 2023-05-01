@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using GameCommerce.Models
+@model IEnumerable<Customer>
+
+
+@{
+
+    ViewData["Title"] = "User";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.UserName)</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelI => i.UserName)</td>
+
+                <td><a asp-action="EditUser" asp-route-id="@i.Id">Manage Role</a></td>
+                <td><a asp-action="DeleteUser" asp-route-id="@i.Id">Delete</a></td>
+
+            </tr>
+
+        }
+    </tbody>
+</table>

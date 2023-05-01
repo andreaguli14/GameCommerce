@@ -1,0 +1,45 @@
+﻿@model Product
+@{
+
+    ViewData["Title"] = "Add Product";
+}
+
+<div class="container-fluid" style="background-color:#080325; border-radius: 100px; margin-top:20vh; max-width:60%; padding-left:10em; padding-right:10em;">
+    <div class="py-5 p-4" style="border-radius:100px">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <form class="row g-3" method="post" enctype="multipart/form-data">
+            <div class="col-md-4">
+                <label class="form-label">Name</label>
+                <input asp-for="@Model.Name" type="text" class="form-control" id="Name">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Price</label>
+                <input asp-for="@Model.Price" type="number" class="form-control" id="price">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Category</label>
+                <select class="form-control" asp-for="@Model.Category">
+                    <option default value="">Select a Category</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="indie">Indie</option>
+                    <option value="racing">Racing</option>
+                    <option value="simulation">Simulation</option>
+                    <option value="strategy">Strategy</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Description</label>
+                <textarea asp-for="@Model.Description" class="form-control" id="description"></textarea>
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Upload Image</label>
+                <input asp-for="@Model.ImageFile" type="file" class="form-control" multiple id="image">
+            </div>
+            <div class="col-md-2 col-sm-push-5 mt-20 mb-20">
+                <button type="submit" class="btn btn-primary btn-lg px-5 mt-3">Add</button>
+            </div>
+
+        </form>
+    </div>
+    </div>

@@ -1,0 +1,284 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using GameCommerce.Data
+@using Microsoft.EntityFrameworkCore;
+@inject SignInManager<Customer> SignInManager
+@inject UserManager<Customer> UserManager
+@inject RoleManager<IdentityRole> role
+@inject ApplicationDbContext _db
+
+@{
+        ViewData["Title"] = "GameCommerce";
+     
+ }
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"]</title>
+
+
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+        <!-- Icon -->
+        <link rel="icon" type="image/png" href="~/koala/images/icon.png">
+        <!-- Google Fonts -->
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="~/assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+
+        <!-- FontAwesome -->
+        <link rel="stylesheet" type="text/css" href="~/assets/bower_components/font-awesome/css/font-awesome.min.css" />
+
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" type="text/css" href="~/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+        <!-- Youplay -->
+
+        <link rel="stylesheet" type="text/css" href="~/assets/youplay/css/youplay.min.css" />
+
+        <!-- Custom Styles -->
+        <link rel="stylesheet" type="text/css" href="~/koala/css/custom.css" />
+
+
+        <!-- MDB -->
+        @*<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+              rel="stylesheet" />*@
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar-youplay navbar navbar-default navbar-fixed-top ">
+            <div class="container" style="width:90%">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="width: 300px" href="/" />
+                    <img src="/logo.png" alt="">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown dropdown-hover ">
+                            <a asp-controller="Products" asp-action="Store" class="dropdown-toggle" role="button" style="font-size:1.6em" aria-expanded="false">
+                                Store
+                            </a>
+                        </li>
+                        @if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(UserManager.Users.FirstOrDefault(x => x.Id == UserManager.GetUserId(User)), "SuperAdmin"))
+                        {
+                            <li class="dropdown dropdown-hover ">
+                                <a asp-area="" asp-controller="Products" asp-action="Index" class="dropdown-toggle" role="button" style="font-size:1.6em" aria-expanded="false">
+                                    Manage Products
+                                </a>
+                            </li>
+
+                        }
+                    </ul>
+                    <form style="display:inline" id="logout" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <ul class="nav navbar-nav navbar-right">
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+
+
+                                <li class="dropdown dropdown-hover dropdown-cart">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        <i class="fa fa-user" style="font-size:2em"></i>
+                                    </a>
+                                    <div class="dropdown-menu" style="font-size:1.3em">
+                                        <ul role="menu">
+                                            <li>
+                                                <a asp-area="Identity" asp-page="/Account/Manage/Index">Profile</a>
+                                            </li>
+                                            @if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(UserManager.Users.FirstOrDefault(x => x.Id == UserManager.GetUserId(User)), "SuperAdmin"))
+                                            {
+                                                <li>
+                                                    <a asp-area="" asp-controller="User">User</a>
+                                                </li>
+                                                <li>
+                                                    <a asp-area="" asp-controller="AppRoles" asp-action="Index">Permission</a>
+                                                </li>
+                                            }
+                                            <li>
+                                                <a href="#" onclick="document.getElementById('logout').submit()">Logout</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <a class="search-toggle" href="search.html">
+                                        <i class="fa fa-search" style="font-size:1.6em"></i>
+                                    </a>
+                                </li>
+
+                                double totcart = 0;
+                                var user = _db.Users
+                                .Include(x => x.Cart)
+                                .ThenInclude(y => y.Objects)
+                                .ThenInclude(z => z.Product)
+                                .ThenInclude(x => x.Photos)
+                                .FirstOrDefault(x => x.Id.Equals(UserManager.GetUserId(User)));
+                                var count = 0;
+                                if (user.Cart.Objects.Any())
+                                {
+                                    foreach (var i in user.Cart.Objects)
+                                    {
+                                        count += i.Quantity;
+                                    }
+                                }
+
+
+                                <li class="dropdown dropdown-hover dropdown-cart">
+                                    <a asp-controller="Cart" asp-action="Index" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        <i class="fa fa-shopping-cart" style="font-size:2em"><span class="badge pull-right bg-danger">@count</span></i>
+                                    </a>
+                                    <div class="dropdown-menu" style="width: 300px;">
+
+                                        @foreach (var i in user.Cart.Objects)
+                                        {
+                                            var totprod = i.Product.Price * i.Quantity;
+                                            totcart += totprod;
+                                            <div class="row youplay-side-news">
+                                                <div class="col-xs-3 col-md-4">
+                                                    <a href="#" class="angled-img">
+                                                        @foreach (var image in i.Product.Photos)
+                                                        {
+
+                                                            @if (image.main)
+                                                            {
+                                                                <div class="img">
+                                                                    <img src="@image.Path" alt="">
+                                                                </div>
+                                                            }
+                                                        }
+                                                    </a>
+                                                </div>
+                                                <div class="col-xs-9 col-md-8">
+                                                    <a asp-action="RemoveFromCart" asp-controller="Cart" asp-route-id="@i.Id" style="text-decoration: none;" class="pull-right mr-10"><i class="fa fa-times"></i></a>
+
+                                                    <h4 class="ellipsis"><a href="/products/ProductDetails/@i.Product.Id">@i.Product.Name</a></h4>
+                                                    <span class="quantity">@i.Quantity × <span class="amount">@i.Product.Price</span></span><span style="float: right;">Tot: @totprod€</span>
+                                                </div>
+                                            </div>
+
+                                        }
+
+                                        <div class="ml-20 mr-20 pull-right">
+                                            <span style="font-size:1.3em"> <strong>Subtotal:</strong>  <span class="amount">@totcart€</span></span>
+                                        </div>
+
+                                        <div class="btn-group pull-right m-15">
+                                            <a asp-controller="Cart" asp-action="Index" class="btn btn-default btn-sm" style="font-size:1.3em">View Cart</a>
+                                            <a asp-controller="Cart" asp-action="Checkout" class="btn btn-default btn-sm" style="font-size:1.3em">Checkout</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                                </li>
+                            }
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+        <section class="content">
+            @RenderBody()
+        </section>
+
+        <!-- Search Block -->
+        <div class="search-block">
+            <a href="/" class="search-toggle glyphicon glyphicon-remove"></a>
+            <form asp-action="Store" asp-controller="Products">
+                <div class="youplay-input">
+                    <input type="text" name="query" placeholder="Search...">
+                </div>
+            </form>
+        </div>
+        <!-- /Search Block -->
+
+
+        @await RenderSectionAsync("Scripts", required: false)
+
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="~/assets/bower_components/jquery/dist/jquery.min.js"></script>
+
+        <!-- Hexagon Progress -->
+        <script type="text/javascript" src="~/assets/bower_components/HexagonProgress/jquery.hexagonprogress.min.js"></script>
+
+
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="~/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Jarallax -->
+        <script type="text/javascript" src="~/assets/bower_components/jarallax/dist/jarallax.min.js"></script>
+
+        <!-- Smooth Scroll -->
+        <script type="text/javascript" src="~/assets/bower_components/smoothscroll-for-websites/SmoothScroll.js"></script>
+
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="~/assets/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+
+        <!-- Countdown -->
+        <script type="text/javascript" src="~/assets/bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Youplay -->
+        <script type="text/javascript" src="~/assets/youplay/js/youplay.min.js"></script>
+
+        <!-- Magnific Popup -->
+        <script type="text/javascript" src="~/assets/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+
+        <!-- Revolution Slider -->
+        <script type="text/javascript" src="~/assets/plugins/slider-revolution/examples%26source/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="~/assets/plugins/slider-revolution/examples%26source/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- Social Likes -->
+        <script type="text/javascript" src="~/assets/bower_components/social-likes/dist/social-likes.min.js"></script>
+
+        <!-- init youplay -->
+        <script>if (typeof youplay !== 'undefined') {
+                youplay.init({
+                    // enable parallax
+                    parallax: true,
+
+                    // set small navbar on load
+                    navbarSmall: false,
+
+                    // enable fade effect between pages
+                    fadeBetweenPages: true,
+
+
+                });
+            }</script>
+
+
+        <script type="text/javascript">$(".countdown").each(function () {
+                $(this).countdown($(this).attr('data-end'), function (event) {
+                    $(this).text(
+                        event.strftime('%D days %H:%M:%S')
+                    );
+                });
+            })</script>
+    </body>
+
+
+
+
+
+
+
+</html>
+

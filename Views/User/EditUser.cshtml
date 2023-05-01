@@ -1,0 +1,34 @@
+﻿@using GameCommerce.Models
+@using Microsoft.AspNetCore.Identity
+@model Customer
+@inject RoleManager<IdentityRole> role
+@inject UserManager<Customer> user
+
+@{
+    string permission = "";
+}
+
+<div>
+    <h1> Roles of @Model.UserName</h1>
+    <form method="post">
+        <select asp-for="@permission">
+            @foreach (var i in role.Roles)
+            {
+                <option value="@i.Name">@i.Name</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+
+    @foreach (var role in await user.GetRolesAsync(Model))
+    {
+        <ul>
+            <li>@role  <a asp-action="RemoveRole" asp-route-role="@role" asp-route-id="@Model.Id">Delete</a></li>
+
+        </ul>
+
+    }
+</div>
+    
+
+

@@ -1,0 +1,65 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<!-- Main Content -->
+<section class="content-wrap full youplay-login">
+    <!-- Banner -->
+    <div class="youplay-banner banner-top" style="min-height:100vh">
+        <div class="image" style="background-image: url(../../koala/images/banner-bg.jpg)"></div>
+
+        <div class="info">
+            <div>
+                <div class="container align-center">
+                    <div class="youplay-form">
+                        <h2>Login</h2>
+                        <form id="account" method="post">
+                            <hr />
+                            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+
+                            <div class="youplay-input">
+                                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Login" />
+                                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="youplay-input">
+                                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="Password" />
+                                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+
+                            <div class="checkbox mb-2">
+                                <label asp-for="Input.RememberMe" class="form-label">
+                                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                                </label>
+                            </div>
+
+                            <div>
+                                <button id="login-submit" type="submit" class="btn btn-default db">Log in</button>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <span>
+                                    <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                                </span>
+                                <span>
+                                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                                </span>
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+

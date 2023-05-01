@@ -1,0 +1,137 @@
+﻿@model Cart
+@{ double totcart = 0;}
+
+
+<!-- Main Content -->
+<section class="content-wrap" style="max-width:100vw">
+
+    <!-- Banner -->
+    <div class="youplay-banner banner-top youplay-banner-parallax xsmall">
+        <div class="image" style="background-image: url('../koala/images/banner-blog-bg.jpg')">
+        </div>
+       
+        <div class="info">
+            <div>
+                <div class="container">
+                    <h1>Cart</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Banner -->
+
+
+    <div class="container youplay-content">
+
+        <div class="col-md-12">
+
+            <h2 class="mt-0">Your Games in Cart</h2>
+
+            <!-- Single Product Block -->
+            @foreach (var i in Model.Objects)
+                {
+                    var quantity = i.Quantity;
+                    var totprod = i.Quantity * i.Product.Price;
+                    totcart += totprod;
+
+
+                <div class="item angled-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-xs-4">
+                            <div class="angled-img">
+                                @foreach (var image in i.Product.Photos)
+                                    {
+
+                                    @if (image.main)
+                                        {
+                                            <div class="img">
+                                                <img style="vertical-align:baseline" src="@image.Path" alt="">
+                                            </div>
+                                            }
+                                        }
+                                </div>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-xs-8">
+                            <div class="row">
+                                <div class="col-xs-6 col-md-9">
+                                    <h3>@i.Product.Name  @i.Product.Price€</h3>
+                                    <span style="font-size:1em">Quantity:</span>
+                                    <form class="" asp-action="UpdateQuantity" asp-route-id="@i.Id" style="margin-right: 1em; display:inline">
+                                       <input class="form-control" style="border-radius: 50px; width: 4em ; display:inline;" onchange="this.form.submit()" asp-for="@quantity" />
+                                    </form>
+                                </div>
+                         
+                                <div class="col-xs-6 col-md-3 align-right">
+                                    <a asp-action="RemoveFromCart" asp-route-id="@i.Id" class="remove glyphicon glyphicon-remove" style="margin-top:1em;margin-bottom:1.8em"></a>
+                                    <br />
+                                    <span style="font-size:20px; margin-right:1em"><strong>Total: @totprod€</strong></span>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+                <div class="align-right h3 mr-20 mb-20">
+                    Total Cart:  <strong>@totcart€</strong>
+                </div>
+                <div class="align-right">
+                    <a asp-action="Checkout" class="btn btn-lg">Proceed to Checkout</a>
+                </div>
+            </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+        <div class="wrapper" style="background-image: url('../koala/images/footer-bg.jpg')">
+
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>Connect socially with <strong>AVRG</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-facebook-square"></i>
+                                <span>Like on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitter-square"></i>
+                                <span>Follow on Twitter</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitch"></i>
+                                <span>Watch on Twitch</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-youtube-square"></i>
+                                <span>Watch on Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <strong>With ❤️ by Guli</strong> 
+                </div>
+            </div>
+            <!-- /Copyright -->
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+</section>

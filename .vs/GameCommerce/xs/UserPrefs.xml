@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{4D4C5771-C01A-42DA-8FB5-182D0C0DBCBE}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Cart/Checkout.cshtml">
+    <Files>
+      <File FileName="Views/Cart/Checkout.cshtml" Line="382" Column="49" />
+      <File FileName="Views/Products/Store.cshtml" Line="97" Column="27" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="111" Column="38" />
+      <File FileName="Program.cs" Line="59" Column="1" />
+      <File FileName="Controllers/CartController.cs" Line="78" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameCommerce" expanded="True">
+            <Node name="GameCommerce" expanded="True">
+              <Node name="Areas" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="Account" expanded="True">
+                      <Node name="Login.cshtml" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AppRoles" expanded="True" />
+                <Node name="Cart" expanded="True">
+                  <Node name="Checkout.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Products" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+                <Node name="User" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GameCommerce PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

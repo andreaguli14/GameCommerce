@@ -1,0 +1,1257 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/obj/Debug/net7.0/scopedcss/projectbundle/GameCommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets/GameCommerce.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/.DS_Store",
+      "PackagePath": "staticwebassets/assets/plugins/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/.DS_Store",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/.DS_Store",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/.DS_Store",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_left.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_left.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_left2.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_left2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_right.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_right.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_right2.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrow_right2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrowleft.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrowleft.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrowright.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/arrowright.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/boxed_bgtile.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/boxed_bgtile.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullet.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullet.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullet_boxed.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullet_boxed.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullets.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullets.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullets2.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/bullets2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/coloredbg.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/coloredbg.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_3x3.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_3x3.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_3x3_white.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_white.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/gridtile_white.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/large_left.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/large_left.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/large_right.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/large_right.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/loader.gif",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/loader.gif"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/navigdots.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/navigdots.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/navigdots_bgtile.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/navigdots_bgtile.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow1.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow1.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow2.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow3.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/shadow3.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_left.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_left.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_left_boxed.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_left_boxed.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_right.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_right.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_right_boxed.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/small_right_boxed.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/timer.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/assets/timer.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/css/settings.css",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/css/settings.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/images/gradient/g30.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/images/gradient/g30.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/images/gradient/g40.png",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/images/gradient/g40.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/js/jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/js/jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/plugins/slider-revolution/examples&source/rs-plugin/js/jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets/assets/plugins/slider-revolution/examples&source/rs-plugin/js/jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/youplay/css/youplay-anime.min.css",
+      "PackagePath": "staticwebassets/assets/youplay/css/youplay-anime.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/youplay/css/youplay-light.min.css",
+      "PackagePath": "staticwebassets/assets/youplay/css/youplay-light.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/youplay/css/youplay-shooter.min.css",
+      "PackagePath": "staticwebassets/assets/youplay/css/youplay-shooter.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/youplay/css/youplay.min.css",
+      "PackagePath": "staticwebassets/assets/youplay/css/youplay.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/assets/youplay/js/youplay.min.js",
+      "PackagePath": "staticwebassets/assets/youplay/js/youplay.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/css/list.css",
+      "PackagePath": "staticwebassets/css/list.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e01052023020555.jpeg",
+      "PackagePath": "staticwebassets/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e01052023020555.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e01052023020805.jpeg",
+      "PackagePath": "staticwebassets/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e01052023020805.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e30042023224059.jpeg",
+      "PackagePath": "staticwebassets/img/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e30042023224059.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023200013.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023200013.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023200705.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023200705.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023202603.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023202603.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023202709.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023202709.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023203216.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023203216.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023203607.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023203607.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/IMG_830429042023203813.JPG",
+      "PackagePath": "staticwebassets/img/IMG_830429042023203813.JPG"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/MicrosoftTeams-image29042023200705.png",
+      "PackagePath": "staticwebassets/img/MicrosoftTeams-image29042023200705.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/MicrosoftTeams-image29042023202603.png",
+      "PackagePath": "staticwebassets/img/MicrosoftTeams-image29042023202603.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/MicrosoftTeams-image29042023203143.png",
+      "PackagePath": "staticwebassets/img/MicrosoftTeams-image29042023203143.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/MicrosoftTeams-image29042023203357.png",
+      "PackagePath": "staticwebassets/img/MicrosoftTeams-image29042023203357.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/MicrosoftTeams-image29042023203655.png",
+      "PackagePath": "staticwebassets/img/MicrosoftTeams-image29042023203655.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0601052023010147.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0601052023010147.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0601052023020555.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0601052023020555.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0601052023135114.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0601052023135114.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023185757.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023185757.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023190637.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023190637.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023190659.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023190659.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023233724.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023233724.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023234553.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023234553.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023234952.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023234952.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0629042023235531.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0629042023235531.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023000248.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023000248.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023145346.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023145346.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023150446.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023150446.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023150642.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023150642.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023151758.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023151758.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023151825.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023151825.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023152009.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023152009.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023152155.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023152155.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Screenshot 2023-04-17 at 16.59.0630042023152325.png",
+      "PackagePath": "staticwebassets/img/Screenshot 2023-04-17 at 16.59.0630042023152325.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown01052023020555.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown01052023020555.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown29-04-2023-20-58-03.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown29-04-2023-20-58-03.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023000325.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023000325.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023145346.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023145346.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023150446.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023150446.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023150642.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023150642.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023151758.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023151758.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023151825.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023151825.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023152009.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023152009.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/Unknown30042023152155.jpeg",
+      "PackagePath": "staticwebassets/img/Unknown30042023152155.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb01052023020555.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb01052023020555.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb01052023020805.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb01052023020805.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb29042023185757.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb29042023185757.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb2904202318575730042023152840.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb2904202318575730042023152840.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb290420231857573004202315284030042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb290420231857573004202315284030042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb2904202318575730042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb2904202318575730042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb29042023235531.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb29042023235531.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb2904202323553130042023152840.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb2904202323553130042023152840.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb290420232355313004202315284030042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb290420232355313004202315284030042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb29042023235531300420231528403004202315343330042023213942.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb29042023235531300420231528403004202315343330042023213942.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb2904202323553130042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb2904202323553130042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb30042023151825.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb30042023151825.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315182530042023152840.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315182530042023152840.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb300420231518253004202315284030042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb300420231518253004202315284030042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315182530042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315182530042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb30042023152155.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb30042023152155.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315215530042023152840.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315215530042023152840.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb300420231521553004202315284030042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb300420231521553004202315284030042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315215530042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315215530042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb30042023152325.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb30042023152325.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315232530042023152840.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315232530042023152840.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb300420231523253004202315284030042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb300420231523253004202315284030042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/epicode_thumb3004202315232530042023153433.png",
+      "PackagePath": "staticwebassets/img/epicode_thumb3004202315232530042023153433.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner01052023020336.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner01052023020336.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner01052023020555.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner01052023020555.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner01052023020805.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner01052023020805.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner01052023185834.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner01052023185834.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner29042023205803.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner29042023205803.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202320580330042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202320580330042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner290420232058033004202315284030042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner290420232058033004202315284030042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202320580330042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202320580330042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner290420232058033004202315343330042023153625.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner290420232058033004202315343330042023153625.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner29042023234656.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner29042023234656.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202323465630042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202323465630042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202323465630042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202323465630042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner29042023234952.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner29042023234952.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202323495230042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202323495230042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner2904202323495230042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner2904202323495230042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023035826.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023035826.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202303582630042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202303582630042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner300420230358263004202315284030042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner300420230358263004202315284030042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202303582630042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202303582630042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023150642.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023150642.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315064230042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315064230042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315064230042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315064230042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023151758.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023151758.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315175830042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315175830042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315175830042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315175830042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023151825.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023151825.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315182530042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315182530042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315182530042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315182530042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023152009.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023152009.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315200930042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315200930042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315200930042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315200930042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023152155.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023152155.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315215530042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315215530042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315215530042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315215530042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner30042023152325.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner30042023152325.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315232530042023152840.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315232530042023152840.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/hogwarts-legacy-preview-header-no-banner3004202315232530042023153433.jpg",
+      "PackagePath": "staticwebassets/img/hogwarts-legacy-preview-header-no-banner3004202315232530042023153433.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023191710.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023191710.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023191727.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023191727.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023191813.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023191813.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023191925.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023191925.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023194945.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023194945.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/img/senzatroie29042023200004.png",
+      "PackagePath": "staticwebassets/img/senzatroie29042023200004.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/js/Unknown29042023234606.jpeg",
+      "PackagePath": "staticwebassets/js/Unknown29042023234606.jpeg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/css/custom.css",
+      "PackagePath": "staticwebassets/koala/css/custom.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/avatar-user-1.png",
+      "PackagePath": "staticwebassets/koala/images/avatar-user-1.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/avatar-user-2.png",
+      "PackagePath": "staticwebassets/koala/images/avatar-user-2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/avatar-user-3.png",
+      "PackagePath": "staticwebassets/koala/images/avatar-user-3.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/avatar-user-4.png",
+      "PackagePath": "staticwebassets/koala/images/avatar-user-4.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/avatar.png",
+      "PackagePath": "staticwebassets/koala/images/avatar.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/banner-bg.jpg",
+      "PackagePath": "staticwebassets/koala/images/banner-bg.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/banner-blog-bg.jpg",
+      "PackagePath": "staticwebassets/koala/images/banner-blog-bg.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/banner-witcher-3.jpg",
+      "PackagePath": "staticwebassets/koala/images/banner-witcher-3.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-ehome.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-ehome.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-fnatic.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-fnatic.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-navi.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-navi.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-skt-t1.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-skt-t1.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-team-secret.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-team-secret.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-virtus-pro.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-virtus-pro.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/clan-youplay.jpg",
+      "PackagePath": "staticwebassets/koala/images/clan-youplay.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/dummy.png",
+      "PackagePath": "staticwebassets/koala/images/dummy.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/footer-bg.jpg",
+      "PackagePath": "staticwebassets/koala/images/footer-bg.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-assassins-creed-4-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-assassins-creed-4-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-1920x1151.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-1920x1151.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-2-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-2-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-2-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-2-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-3-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-3-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-3-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-4-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-4-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-4-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-4-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-5-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-5-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-5-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-5-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-6-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-6-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-6-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-6-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-7-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-7-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-bloodborne-7-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-bloodborne-7-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-10-1680x1050.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-10-1680x1050.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-2-1920x1248.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-2-1920x1248.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-2-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-2-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-3-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-3-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-3-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-4-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-4-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-4-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-4-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-5-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-5-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-5-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-5-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-6-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-6-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-6-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-6-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-7-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-7-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-7-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-7-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-8-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-8-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-8-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-8-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-9-1280x720.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-9-1280x720.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dark-souls-ii-9-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dark-souls-ii-9-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-diablo-iii-1400x656.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-diablo-iii-1400x656.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-diablo-iii-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-diablo-iii-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-dragons-dogma-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-dragons-dogma-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-half-life-3-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-half-life-3-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-1440x900.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-1440x900.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-2-1940x1185.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-2-1940x1185.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-2-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-2-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-3-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-3-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-3-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-4-1920x1080.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-4-1920x1080.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-4-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-4-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-5-1280x800.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-5-1280x800.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-5-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-5-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-kingdoms-of-amalur-reckoning-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-kingdoms-of-amalur-reckoning-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-lords-of-the-fallen-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-lords-of-the-fallen-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-map-dust.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-map-dust.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-map-mirage.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-map-mirage.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-middle-eart-shadow-of-mordor-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-middle-eart-shadow-of-mordor-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-neverwinter-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-neverwinter-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-prototype-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-prototype-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-risen-3-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-risen-3-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-skyrim-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-skyrim-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-soul-sacrifice-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-soul-sacrifice-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/game-the-witcher-500x375.jpg",
+      "PackagePath": "staticwebassets/koala/images/game-the-witcher-500x375.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/icon.png",
+      "PackagePath": "staticwebassets/koala/images/icon.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/logo-witcher-3-400x197.png",
+      "PackagePath": "staticwebassets/koala/images/logo-witcher-3-400x197.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/logo.png",
+      "PackagePath": "staticwebassets/koala/images/logo.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-1.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-1.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-2.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-2.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-3.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-3.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-4.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-4.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-5.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-5.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-6.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-6.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-7.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-7.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/partner-logo-8.png",
+      "PackagePath": "staticwebassets/koala/images/partner-logo-8.png"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/user-avatar.jpg",
+      "PackagePath": "staticwebassets/koala/images/user-avatar.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/koala/images/user-photo.jpg",
+      "PackagePath": "staticwebassets/koala/images/user-photo.jpg"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/andreaguli14/Desktop/GameCommerce/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.GameCommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.GameCommerce.props",
+      "PackagePath": "build\\GameCommerce.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.GameCommerce.props",
+      "PackagePath": "buildMultiTargeting\\GameCommerce.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.GameCommerce.props",
+      "PackagePath": "buildTransitive\\GameCommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
